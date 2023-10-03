@@ -11,10 +11,6 @@ public class Answer {
 
     @Override
     public String toString() {
-        return "Answer{" +
-                "bull=" + bull +
-                ", cow=" + cow +
-                ", maxTry=" + maxTry +
-                '}';
+        return "You have " + bull + " bulls " + "and " + cow + " cows. Your try count = " + maxTry;
     }
 }
